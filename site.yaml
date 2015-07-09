@@ -1,0 +1,24 @@
+description: This is an instance of the gallery type containing two nested images
+type: gallery
+id: site
+title:
+  type: words:translation
+  english: Hello, world.
+  translations:
+    es: Hola mundo.
+    fr: Bonjour le monde.
+images:
+  dave:
+    type: images:photo
+    path: /me.jpg
+    server: www.brophy.uk
+    protocol: https
+    size:
+      type: units:rectangle
+      width: 800
+      height: 600
+rules:
+  - description: Rule to enforce this object always has a .uk server
+    selector: "{images:photo}>.server"
+    type: system:@string
+    pattern: \.uk$

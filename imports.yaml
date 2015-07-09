@@ -1,0 +1,5 @@
+type: system:imports
+imports:
+  github.com/davelondon/ke_common/images: images
+  github.com/davelondon/ke_common/words: words
+  github.com/davelondon/ke_common/units: units
