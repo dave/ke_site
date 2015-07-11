@@ -1,12 +1,11 @@
 package ke_site
 
 import (
-	reflect "reflect"
-
-	images "github.com/davelondon/ke_common/images"
-	words "github.com/davelondon/ke_common/words"
-	json "kego.io/json"
-	system "kego.io/system"
+	"github.com/davelondon/ke_common/images"
+	"github.com/davelondon/ke_common/words"
+	"kego.io/json"
+	"kego.io/system"
+	"reflect"
 )
 
 // Automatically created basic rule for gallery

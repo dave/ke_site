@@ -1,12 +1,12 @@
 package types
 
 import (
-	images "github.com/davelondon/ke_common/images"
+	"github.com/davelondon/ke_common/images"
 	_ "github.com/davelondon/ke_common/images/types"
 	_ "github.com/davelondon/ke_common/units/types"
-	words "github.com/davelondon/ke_common/words"
+	"github.com/davelondon/ke_common/words"
 	_ "github.com/davelondon/ke_common/words/types"
-	system "kego.io/system"
+	"kego.io/system"
 	_ "kego.io/system/types"
 )
 

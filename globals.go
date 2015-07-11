@@ -1,10 +1,10 @@
 package ke_site
 
 import (
-	images "github.com/davelondon/ke_common/images"
-	units "github.com/davelondon/ke_common/units"
-	words "github.com/davelondon/ke_common/words"
-	system "kego.io/system"
+	"github.com/davelondon/ke_common/images"
+	"github.com/davelondon/ke_common/units"
+	"github.com/davelondon/ke_common/words"
+	"kego.io/system"
 )
 
 var ptr0 = &system.Base{Description: "Rule to enforce this object always has a .uk server", Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "@string", Exists: true}}
