@@ -27,6 +27,6 @@ func init() {
 	ptr13 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "github.com/davelondon/ke_common/words", Name: "@localizer", Exists: true}}
 	ptr14 := &words.Localizer_rule{Base: ptr13, RuleBase: (*system.RuleBase)(nil)}
 	ptr15 := &system.Type{Base: ptr2, Embed: []system.Reference(nil), Fields: map[string]system.Rule{"images": ptr12, "title": ptr14}, Is: []system.Reference(nil), Native: system.String{Value: "object", Exists: true}, Rule: (*system.Type)(nil)}
-	system.RegisterType("github.com/davelondon/ke_site", "@gallery", ptr1)
-	system.RegisterType("github.com/davelondon/ke_site", "gallery", ptr15)
+	system.RegisterType("github.com/davelondon/ke_site", "@gallery", ptr1, 0x1891c27cbbdefbc5)
+	system.RegisterType("github.com/davelondon/ke_site", "gallery", ptr15, 0x1891c27cbbdefbc5)
 }

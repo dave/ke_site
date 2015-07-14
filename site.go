@@ -1,2 +1,2 @@
-//go:generate kego
+//go:generate kego -g
 package ke_site

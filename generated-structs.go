@@ -1,11 +1,12 @@
 package ke_site
 
 import (
+	"reflect"
+
 	"github.com/davelondon/ke_common/images"
 	"github.com/davelondon/ke_common/words"
 	"kego.io/json"
 	"kego.io/system"
-	"reflect"
 )
 
 // Automatically created basic rule for gallery
@@ -22,6 +23,6 @@ type Gallery struct {
 }
 
 func init() {
-	json.RegisterType("github.com/davelondon/ke_site", "@gallery", reflect.TypeOf(&Gallery_rule{}))
-	json.RegisterType("github.com/davelondon/ke_site", "gallery", reflect.TypeOf(&Gallery{}))
+	json.RegisterType("github.com/davelondon/ke_site", "@gallery", reflect.TypeOf(&Gallery_rule{}), 0x1891c27cbbdefbc5)
+	json.RegisterType("github.com/davelondon/ke_site", "gallery", reflect.TypeOf(&Gallery{}), 0x1891c27cbbdefbc5)
 }
