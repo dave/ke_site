@@ -9,8 +9,8 @@ title:
     fr: Bonjour le monde.
 images:
   james:
-      type: images:icon
-      url: https://www.foo.com/james.png
+    type: images:icon
+    url: http://www.foo.com/james.png
   dave:
     type: images:photo
     path: /dave.jpg
