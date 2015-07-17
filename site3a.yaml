@@ -10,7 +10,7 @@ title:
 images:
   james:
     type: images:icon
-    url: http://www.foo.com/james.png
+    url: https://www.foo.com/james.png
   dave:
     type: images:photo
     path: /dave.jpg
