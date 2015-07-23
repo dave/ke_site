@@ -56,3 +56,13 @@ var Site2a = ptr15
 var Site2b = ptr21
 var Site3 = ptr31
 var Site3a = ptr41
+
+func init() {
+	system.RegisterGlobal("github.com/davelondon/ke_site", "site1", Site1)
+	system.RegisterGlobal("github.com/davelondon/ke_site", "site1a", Site1a)
+	system.RegisterGlobal("github.com/davelondon/ke_site", "site2", Site2)
+	system.RegisterGlobal("github.com/davelondon/ke_site", "site2a", Site2a)
+	system.RegisterGlobal("github.com/davelondon/ke_site", "site2b", Site2b)
+	system.RegisterGlobal("github.com/davelondon/ke_site", "site3", Site3)
+	system.RegisterGlobal("github.com/davelondon/ke_site", "site3a", Site3a)
+}

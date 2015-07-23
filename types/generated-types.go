@@ -61,7 +61,7 @@ func init() {
 	ptr47 := &system.String_rule{Base: ptr45, RuleBase: ptr46, Default: system.String{}, Enum: []string(nil), Equal: system.String{}, Format: system.String{}, MaxLength: system.Int{Value: 0}, MinLength: system.Int{Value: 0}, Pattern: system.String{}}
 	ptr48 := &system.Type{Base: ptr35, Embed: []system.Reference(nil), Fields: map[string]system.Rule{"images": ptr44, "title": ptr47}, Is: []system.Reference(nil), Native: system.String{Value: "object", Exists: true}, Rule: (*system.Type)(nil)}
 	ptr49 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "@int", Exists: true}}
-	ptr50 := &system.RuleBase{Selector: "{images:photo} {system:int}.width"}
+	ptr50 := &system.RuleBase{Selector: "{images:photo} .width"}
 	ptr51 := &system.Int_rule{Base: ptr49, RuleBase: ptr50, Default: system.Int{Value: 0}, Maximum: system.Int{Value: 0}, Minimum: system.Int{Value: 800, Exists: true}, MultipleOf: system.Int{Value: 0}}
 	ptr52 := &system.Base{Description: "This represents a gallery - it's just a list of images", Id: system.Reference{Package: "github.com/davelondon/ke_site", Name: "gallery2b", Exists: true}, Rules: []system.Rule{ptr51}, Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
 	ptr53 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "@map", Exists: true}}
@@ -100,14 +100,14 @@ func init() {
 	system.RegisterType("github.com/davelondon/ke_site", "@gallery1a", ptr3, 0x71f3e78aef58e8d3)
 	system.RegisterType("github.com/davelondon/ke_site", "@gallery2", ptr5, 0x34c477fbf667c293)
 	system.RegisterType("github.com/davelondon/ke_site", "@gallery2a", ptr7, 0x15a72f5e15ac5b15)
-	system.RegisterType("github.com/davelondon/ke_site", "@gallery2b", ptr9, 0x7a55f651c3e84b3e)
+	system.RegisterType("github.com/davelondon/ke_site", "@gallery2b", ptr9, 0x8b627a66a999f000)
 	system.RegisterType("github.com/davelondon/ke_site", "@gallery3", ptr11, 0x5dbf985bda22bd2c)
 	system.RegisterType("github.com/davelondon/ke_site", "@gallery3a", ptr13, 0x52157a49e1a4a1d6)
 	system.RegisterType("github.com/davelondon/ke_site", "gallery1", ptr18, 0x1e7dc2fe69100697)
 	system.RegisterType("github.com/davelondon/ke_site", "gallery1a", ptr23, 0x71f3e78aef58e8d3)
 	system.RegisterType("github.com/davelondon/ke_site", "gallery2", ptr34, 0x34c477fbf667c293)
 	system.RegisterType("github.com/davelondon/ke_site", "gallery2a", ptr48, 0x15a72f5e15ac5b15)
-	system.RegisterType("github.com/davelondon/ke_site", "gallery2b", ptr62, 0x7a55f651c3e84b3e)
+	system.RegisterType("github.com/davelondon/ke_site", "gallery2b", ptr62, 0x8b627a66a999f000)
 	system.RegisterType("github.com/davelondon/ke_site", "gallery3", ptr73, 0x5dbf985bda22bd2c)
 	system.RegisterType("github.com/davelondon/ke_site", "gallery3a", ptr84, 0x52157a49e1a4a1d6)
 }
