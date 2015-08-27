@@ -9,11 +9,14 @@ import (
 	_ "github.com/davelondon/ke_common/words/types"
 	_ "github.com/davelondon/ke_site"
 	_ "github.com/davelondon/ke_site/types"
-	"kego.io/process/editor"
+	"honnef.co/go/js/console"
+	"kego.io/editor"
 	_ "kego.io/system"
 	_ "kego.io/system/types"
 )
 
 func main() {
-	editor.Edit("github.com/davelondon/ke_site")
+	if err := editor.Edit("github.com/davelondon/ke_site"); err != nil {
+		console.Error(err)
+	}
 }
