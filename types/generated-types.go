@@ -1,44 +1,44 @@
 package types
 
 import (
-	"github.com/davelondon/ke_common/images"
-	_ "github.com/davelondon/ke_common/images/types"
-	_ "github.com/davelondon/ke_common/units/types"
-	"github.com/davelondon/ke_common/words"
-	_ "github.com/davelondon/ke_common/words/types"
+	"github.com/dave/ke_common/images"
+	_ "github.com/dave/ke_common/images/types"
+	_ "github.com/dave/ke_common/units/types"
+	"github.com/dave/ke_common/words"
+	_ "github.com/dave/ke_common/words/types"
 	"kego.io/system"
 	_ "kego.io/system/types"
 )
 
 func init() {
-	ptr0 := &system.Base{Description: "Automatically created basic rule for gallery1", Id: system.Reference{Package: "github.com/davelondon/ke_site", Name: "@gallery1", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
+	ptr0 := &system.Base{Description: "Automatically created basic rule for gallery1", Id: system.Reference{Package: "github.com/dave/ke_site", Name: "@gallery1", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
 	ptr1 := &system.Type{Base: ptr0, Embed: []system.Reference{system.Reference{Package: "kego.io/system", Name: "ruleBase", Exists: true}}, Fields: map[string]system.Rule(nil), Is: []system.Reference{system.Reference{Package: "kego.io/system", Name: "rule", Exists: true}}, Native: system.String{Value: "object", Exists: true}, Rule: (*system.Type)(nil)}
-	ptr2 := &system.Base{Description: "Automatically created basic rule for gallery1a", Id: system.Reference{Package: "github.com/davelondon/ke_site", Name: "@gallery1a", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
+	ptr2 := &system.Base{Description: "Automatically created basic rule for gallery1a", Id: system.Reference{Package: "github.com/dave/ke_site", Name: "@gallery1a", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
 	ptr3 := &system.Type{Base: ptr2, Embed: []system.Reference{system.Reference{Package: "kego.io/system", Name: "ruleBase", Exists: true}}, Fields: map[string]system.Rule(nil), Is: []system.Reference{system.Reference{Package: "kego.io/system", Name: "rule", Exists: true}}, Native: system.String{Value: "object", Exists: true}, Rule: (*system.Type)(nil)}
-	ptr4 := &system.Base{Description: "Automatically created basic rule for gallery2", Id: system.Reference{Package: "github.com/davelondon/ke_site", Name: "@gallery2", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
+	ptr4 := &system.Base{Description: "Automatically created basic rule for gallery2", Id: system.Reference{Package: "github.com/dave/ke_site", Name: "@gallery2", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
 	ptr5 := &system.Type{Base: ptr4, Embed: []system.Reference{system.Reference{Package: "kego.io/system", Name: "ruleBase", Exists: true}}, Fields: map[string]system.Rule(nil), Is: []system.Reference{system.Reference{Package: "kego.io/system", Name: "rule", Exists: true}}, Native: system.String{Value: "object", Exists: true}, Rule: (*system.Type)(nil)}
-	ptr6 := &system.Base{Description: "Automatically created basic rule for gallery2a", Id: system.Reference{Package: "github.com/davelondon/ke_site", Name: "@gallery2a", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
+	ptr6 := &system.Base{Description: "Automatically created basic rule for gallery2a", Id: system.Reference{Package: "github.com/dave/ke_site", Name: "@gallery2a", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
 	ptr7 := &system.Type{Base: ptr6, Embed: []system.Reference{system.Reference{Package: "kego.io/system", Name: "ruleBase", Exists: true}}, Fields: map[string]system.Rule(nil), Is: []system.Reference{system.Reference{Package: "kego.io/system", Name: "rule", Exists: true}}, Native: system.String{Value: "object", Exists: true}, Rule: (*system.Type)(nil)}
-	ptr8 := &system.Base{Description: "Automatically created basic rule for gallery2b", Id: system.Reference{Package: "github.com/davelondon/ke_site", Name: "@gallery2b", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
+	ptr8 := &system.Base{Description: "Automatically created basic rule for gallery2b", Id: system.Reference{Package: "github.com/dave/ke_site", Name: "@gallery2b", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
 	ptr9 := &system.Type{Base: ptr8, Embed: []system.Reference{system.Reference{Package: "kego.io/system", Name: "ruleBase", Exists: true}}, Fields: map[string]system.Rule(nil), Is: []system.Reference{system.Reference{Package: "kego.io/system", Name: "rule", Exists: true}}, Native: system.String{Value: "object", Exists: true}, Rule: (*system.Type)(nil)}
-	ptr10 := &system.Base{Description: "Automatically created basic rule for gallery3", Id: system.Reference{Package: "github.com/davelondon/ke_site", Name: "@gallery3", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
+	ptr10 := &system.Base{Description: "Automatically created basic rule for gallery3", Id: system.Reference{Package: "github.com/dave/ke_site", Name: "@gallery3", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
 	ptr11 := &system.Type{Base: ptr10, Embed: []system.Reference{system.Reference{Package: "kego.io/system", Name: "ruleBase", Exists: true}}, Fields: map[string]system.Rule(nil), Is: []system.Reference{system.Reference{Package: "kego.io/system", Name: "rule", Exists: true}}, Native: system.String{Value: "object", Exists: true}, Rule: (*system.Type)(nil)}
-	ptr12 := &system.Base{Description: "Automatically created basic rule for gallery3a", Id: system.Reference{Package: "github.com/davelondon/ke_site", Name: "@gallery3a", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
+	ptr12 := &system.Base{Description: "Automatically created basic rule for gallery3a", Id: system.Reference{Package: "github.com/dave/ke_site", Name: "@gallery3a", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
 	ptr13 := &system.Type{Base: ptr12, Embed: []system.Reference{system.Reference{Package: "kego.io/system", Name: "ruleBase", Exists: true}}, Fields: map[string]system.Rule(nil), Is: []system.Reference{system.Reference{Package: "kego.io/system", Name: "rule", Exists: true}}, Native: system.String{Value: "object", Exists: true}, Rule: (*system.Type)(nil)}
-	ptr14 := &system.Base{Description: "This represents a gallery - it's just a list of images", Id: system.Reference{Package: "github.com/davelondon/ke_site", Name: "gallery1", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
+	ptr14 := &system.Base{Description: "This represents a gallery - it's just a list of images", Id: system.Reference{Package: "github.com/dave/ke_site", Name: "gallery1", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
 	ptr15 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "@string", Exists: true}}
 	ptr16 := &system.RuleBase{}
 	ptr17 := &system.String_rule{Base: ptr15, RuleBase: ptr16, Default: system.String{}, Enum: []string(nil), Equal: system.String{}, Format: system.String{}, MaxLength: system.Int{Value: 0}, MinLength: system.Int{Value: 0}, Pattern: system.String{}}
 	ptr18 := &system.Type{Base: ptr14, Embed: []system.Reference(nil), Fields: map[string]system.Rule{"title": ptr17}, Is: []system.Reference(nil), Native: system.String{Value: "object", Exists: true}, Rule: (*system.Type)(nil)}
-	ptr19 := &system.Base{Description: "This represents a gallery - it's just a list of images", Id: system.Reference{Package: "github.com/davelondon/ke_site", Name: "gallery1a", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
+	ptr19 := &system.Base{Description: "This represents a gallery - it's just a list of images", Id: system.Reference{Package: "github.com/dave/ke_site", Name: "gallery1a", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
 	ptr20 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "@string", Exists: true}}
 	ptr21 := &system.RuleBase{}
 	ptr22 := &system.String_rule{Base: ptr20, RuleBase: ptr21, Default: system.String{}, Enum: []string(nil), Equal: system.String{}, Format: system.String{}, MaxLength: system.Int{Value: 20, Exists: true}, MinLength: system.Int{Value: 0}, Pattern: system.String{}}
 	ptr23 := &system.Type{Base: ptr19, Embed: []system.Reference(nil), Fields: map[string]system.Rule{"title": ptr22}, Is: []system.Reference(nil), Native: system.String{Value: "object", Exists: true}, Rule: (*system.Type)(nil)}
-	ptr24 := &system.Base{Description: "This represents a gallery - it's just a list of images", Id: system.Reference{Package: "github.com/davelondon/ke_site", Name: "gallery2", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
+	ptr24 := &system.Base{Description: "This represents a gallery - it's just a list of images", Id: system.Reference{Package: "github.com/dave/ke_site", Name: "gallery2", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
 	ptr25 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "@map", Exists: true}}
 	ptr26 := &system.RuleBase{}
-	ptr27 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "github.com/davelondon/ke_common/images", Name: "@photo", Exists: true}}
+	ptr27 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "github.com/dave/ke_common/images", Name: "@photo", Exists: true}}
 	ptr28 := &system.RuleBase{}
 	ptr29 := &images.Photo_rule{Base: ptr27, RuleBase: ptr28}
 	ptr30 := &system.Map_rule{Base: ptr25, RuleBase: ptr26, Items: ptr29, MaxItems: system.Int{Value: 0}, MinItems: system.Int{Value: 0}}
@@ -46,13 +46,13 @@ func init() {
 	ptr32 := &system.RuleBase{}
 	ptr33 := &system.String_rule{Base: ptr31, RuleBase: ptr32, Default: system.String{}, Enum: []string(nil), Equal: system.String{}, Format: system.String{}, MaxLength: system.Int{Value: 0}, MinLength: system.Int{Value: 0}, Pattern: system.String{}}
 	ptr34 := &system.Type{Base: ptr24, Embed: []system.Reference(nil), Fields: map[string]system.Rule{"images": ptr30, "title": ptr33}, Is: []system.Reference(nil), Native: system.String{Value: "object", Exists: true}, Rule: (*system.Type)(nil)}
-	ptr35 := &system.Base{Description: "This represents a gallery - it's just a list of images", Id: system.Reference{Package: "github.com/davelondon/ke_site", Name: "gallery2a", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
+	ptr35 := &system.Base{Description: "This represents a gallery - it's just a list of images", Id: system.Reference{Package: "github.com/dave/ke_site", Name: "gallery2a", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
 	ptr36 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "@map", Exists: true}}
 	ptr37 := &system.RuleBase{}
 	ptr38 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "@string", Exists: true}}
 	ptr39 := &system.RuleBase{Selector: ".protocol"}
 	ptr40 := &system.String_rule{Base: ptr38, RuleBase: ptr39, Default: system.String{}, Enum: []string(nil), Equal: system.String{Value: "https", Exists: true}, Format: system.String{}, MaxLength: system.Int{Value: 0}, MinLength: system.Int{Value: 0}, Pattern: system.String{}}
-	ptr41 := &system.Base{Id: system.Reference{}, Rules: []system.Rule{ptr40}, Type: system.Reference{Package: "github.com/davelondon/ke_common/images", Name: "@photo", Exists: true}}
+	ptr41 := &system.Base{Id: system.Reference{}, Rules: []system.Rule{ptr40}, Type: system.Reference{Package: "github.com/dave/ke_common/images", Name: "@photo", Exists: true}}
 	ptr42 := &system.RuleBase{}
 	ptr43 := &images.Photo_rule{Base: ptr41, RuleBase: ptr42}
 	ptr44 := &system.Map_rule{Base: ptr36, RuleBase: ptr37, Items: ptr43, MaxItems: system.Int{Value: 0}, MinItems: system.Int{Value: 0}}
@@ -63,10 +63,10 @@ func init() {
 	ptr49 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "@int", Exists: true}}
 	ptr50 := &system.RuleBase{Selector: "{images:photo} .width"}
 	ptr51 := &system.Int_rule{Base: ptr49, RuleBase: ptr50, Default: system.Int{Value: 0}, Maximum: system.Int{Value: 0}, Minimum: system.Int{Value: 800, Exists: true}, MultipleOf: system.Int{Value: 0}}
-	ptr52 := &system.Base{Description: "This represents a gallery - it's just a list of images", Id: system.Reference{Package: "github.com/davelondon/ke_site", Name: "gallery2b", Exists: true}, Rules: []system.Rule{ptr51}, Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
+	ptr52 := &system.Base{Description: "This represents a gallery - it's just a list of images", Id: system.Reference{Package: "github.com/dave/ke_site", Name: "gallery2b", Exists: true}, Rules: []system.Rule{ptr51}, Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
 	ptr53 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "@map", Exists: true}}
 	ptr54 := &system.RuleBase{}
-	ptr55 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "github.com/davelondon/ke_common/images", Name: "@photo", Exists: true}}
+	ptr55 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "github.com/dave/ke_common/images", Name: "@photo", Exists: true}}
 	ptr56 := &system.RuleBase{}
 	ptr57 := &images.Photo_rule{Base: ptr55, RuleBase: ptr56}
 	ptr58 := &system.Map_rule{Base: ptr53, RuleBase: ptr54, Items: ptr57, MaxItems: system.Int{Value: 0}, MinItems: system.Int{Value: 0}}
@@ -74,40 +74,40 @@ func init() {
 	ptr60 := &system.RuleBase{}
 	ptr61 := &system.String_rule{Base: ptr59, RuleBase: ptr60, Default: system.String{}, Enum: []string(nil), Equal: system.String{}, Format: system.String{}, MaxLength: system.Int{Value: 0}, MinLength: system.Int{Value: 0}, Pattern: system.String{}}
 	ptr62 := &system.Type{Base: ptr52, Embed: []system.Reference(nil), Fields: map[string]system.Rule{"images": ptr58, "title": ptr61}, Is: []system.Reference(nil), Native: system.String{Value: "object", Exists: true}, Rule: (*system.Type)(nil)}
-	ptr63 := &system.Base{Description: "This represents a gallery - it's just a list of images", Id: system.Reference{Package: "github.com/davelondon/ke_site", Name: "gallery3", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
+	ptr63 := &system.Base{Description: "This represents a gallery - it's just a list of images", Id: system.Reference{Package: "github.com/dave/ke_site", Name: "gallery3", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
 	ptr64 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "@map", Exists: true}}
 	ptr65 := &system.RuleBase{}
-	ptr66 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "github.com/davelondon/ke_common/images", Name: "@image", Exists: true}}
+	ptr66 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "github.com/dave/ke_common/images", Name: "@image", Exists: true}}
 	ptr67 := &system.RuleBase{}
 	ptr68 := &images.Image_rule{Base: ptr66, RuleBase: ptr67, Secure: system.Bool{}}
 	ptr69 := &system.Map_rule{Base: ptr64, RuleBase: ptr65, Items: ptr68, MaxItems: system.Int{Value: 0}, MinItems: system.Int{Value: 0}}
-	ptr70 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "github.com/davelondon/ke_common/words", Name: "@localizer", Exists: true}}
+	ptr70 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "github.com/dave/ke_common/words", Name: "@localizer", Exists: true}}
 	ptr71 := &system.RuleBase{}
 	ptr72 := &words.Localizer_rule{Base: ptr70, RuleBase: ptr71}
 	ptr73 := &system.Type{Base: ptr63, Embed: []system.Reference(nil), Fields: map[string]system.Rule{"images": ptr69, "title": ptr72}, Is: []system.Reference(nil), Native: system.String{Value: "object", Exists: true}, Rule: (*system.Type)(nil)}
-	ptr74 := &system.Base{Description: "This represents a gallery - it's just a list of images", Id: system.Reference{Package: "github.com/davelondon/ke_site", Name: "gallery3a", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
+	ptr74 := &system.Base{Description: "This represents a gallery - it's just a list of images", Id: system.Reference{Package: "github.com/dave/ke_site", Name: "gallery3a", Exists: true}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "type", Exists: true}}
 	ptr75 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "kego.io/system", Name: "@map", Exists: true}}
 	ptr76 := &system.RuleBase{}
-	ptr77 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "github.com/davelondon/ke_common/images", Name: "@image", Exists: true}}
+	ptr77 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "github.com/dave/ke_common/images", Name: "@image", Exists: true}}
 	ptr78 := &system.RuleBase{}
 	ptr79 := &images.Image_rule{Base: ptr77, RuleBase: ptr78, Secure: system.Bool{Value: true, Exists: true}}
 	ptr80 := &system.Map_rule{Base: ptr75, RuleBase: ptr76, Items: ptr79, MaxItems: system.Int{Value: 0}, MinItems: system.Int{Value: 0}}
-	ptr81 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "github.com/davelondon/ke_common/words", Name: "@localizer", Exists: true}}
+	ptr81 := &system.Base{Id: system.Reference{}, Rules: []system.Rule(nil), Type: system.Reference{Package: "github.com/dave/ke_common/words", Name: "@translation", Exists: true}}
 	ptr82 := &system.RuleBase{}
-	ptr83 := &words.Localizer_rule{Base: ptr81, RuleBase: ptr82}
+	ptr83 := &words.Translation_rule{Base: ptr81, RuleBase: ptr82}
 	ptr84 := &system.Type{Base: ptr74, Embed: []system.Reference(nil), Fields: map[string]system.Rule{"images": ptr80, "title": ptr83}, Is: []system.Reference(nil), Native: system.String{Value: "object", Exists: true}, Rule: (*system.Type)(nil)}
-	system.RegisterType("github.com/davelondon/ke_site", "@gallery1", ptr1, 0x1e7dc2fe69100697)
-	system.RegisterType("github.com/davelondon/ke_site", "@gallery1a", ptr3, 0x71f3e78aef58e8d3)
-	system.RegisterType("github.com/davelondon/ke_site", "@gallery2", ptr5, 0x34c477fbf667c293)
-	system.RegisterType("github.com/davelondon/ke_site", "@gallery2a", ptr7, 0x15a72f5e15ac5b15)
-	system.RegisterType("github.com/davelondon/ke_site", "@gallery2b", ptr9, 0x8b627a66a999f000)
-	system.RegisterType("github.com/davelondon/ke_site", "@gallery3", ptr11, 0x5dbf985bda22bd2c)
-	system.RegisterType("github.com/davelondon/ke_site", "@gallery3a", ptr13, 0x52157a49e1a4a1d6)
-	system.RegisterType("github.com/davelondon/ke_site", "gallery1", ptr18, 0x1e7dc2fe69100697)
-	system.RegisterType("github.com/davelondon/ke_site", "gallery1a", ptr23, 0x71f3e78aef58e8d3)
-	system.RegisterType("github.com/davelondon/ke_site", "gallery2", ptr34, 0x34c477fbf667c293)
-	system.RegisterType("github.com/davelondon/ke_site", "gallery2a", ptr48, 0x15a72f5e15ac5b15)
-	system.RegisterType("github.com/davelondon/ke_site", "gallery2b", ptr62, 0x8b627a66a999f000)
-	system.RegisterType("github.com/davelondon/ke_site", "gallery3", ptr73, 0x5dbf985bda22bd2c)
-	system.RegisterType("github.com/davelondon/ke_site", "gallery3a", ptr84, 0x52157a49e1a4a1d6)
+	system.RegisterType("github.com/dave/ke_site", "@gallery1", ptr1, 0x1e7dc2fe69100697)
+	system.RegisterType("github.com/dave/ke_site", "@gallery1a", ptr3, 0x71f3e78aef58e8d3)
+	system.RegisterType("github.com/dave/ke_site", "@gallery2", ptr5, 0x34c477fbf667c293)
+	system.RegisterType("github.com/dave/ke_site", "@gallery2a", ptr7, 0x15a72f5e15ac5b15)
+	system.RegisterType("github.com/dave/ke_site", "@gallery2b", ptr9, 0x8b627a66a999f000)
+	system.RegisterType("github.com/dave/ke_site", "@gallery3", ptr11, 0x5dbf985bda22bd2c)
+	system.RegisterType("github.com/dave/ke_site", "@gallery3a", ptr13, 0xea4eda53a7c73040)
+	system.RegisterType("github.com/dave/ke_site", "gallery1", ptr18, 0x1e7dc2fe69100697)
+	system.RegisterType("github.com/dave/ke_site", "gallery1a", ptr23, 0x71f3e78aef58e8d3)
+	system.RegisterType("github.com/dave/ke_site", "gallery2", ptr34, 0x34c477fbf667c293)
+	system.RegisterType("github.com/dave/ke_site", "gallery2a", ptr48, 0x15a72f5e15ac5b15)
+	system.RegisterType("github.com/dave/ke_site", "gallery2b", ptr62, 0x8b627a66a999f000)
+	system.RegisterType("github.com/dave/ke_site", "gallery3", ptr73, 0x5dbf985bda22bd2c)
+	system.RegisterType("github.com/dave/ke_site", "gallery3a", ptr84, 0xea4eda53a7c73040)
 }
